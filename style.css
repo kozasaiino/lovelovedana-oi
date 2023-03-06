@@ -1,3 +1,7 @@
+#yajirushi {
+  height: 0px;
+}
+
 .pagination {
   position: absolute !important;
   width: 100%;
@@ -218,7 +222,6 @@
 .slideshow__slide-caption-text {
   position: relative;
   height: 100%;
-  padding-top: 33vh;
   transition: transform 1.2s cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
   transform: translate3d(0, 0, 0);
 }
@@ -243,7 +246,7 @@
 
 .slideshow__slide-caption {
   position: relative;
-  top: 900px;
+  top: 45vh;
   height: 100%;
   transform: translate3d(0, 100%, 0);
   transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1) 0.1s;
@@ -690,7 +693,7 @@ h6, .o-h6 {
 }
 
 .o-hsub {
-  font-size: 0.75rem;
+  font-size: 1.75rem;
   padding: 1.25rem 0;
   display: inline-block;
   text-transform: uppercase;
@@ -760,6 +763,7 @@ h6, .o-h6 {
 .o-container {
   position: relative;
   margin: 0 auto;
+  /* bottom: 50px; */
 }
 
 @media (max-width: 699px) {
@@ -1604,7 +1608,7 @@ h6, .o-h6 {
 }
 @media (min-width: 700px) {
   .c-header-home_controls, .c-header-home_buttons {
-    padding-bottom: 5.625rem;
+    padding-bottom: 8.625rem;
   }
 }
 @media (min-width: 700px) and (max-width: 749px) {
