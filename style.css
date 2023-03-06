@@ -38,6 +38,8 @@
 #wrapper {
   -webkit-animation: contentScale 2.6s forwards;
           animation: contentScale 2.6s forwards;
+  -webkit-animation: detekuru 3.0s forwards;
+          animation: detekuru 3.0s forwards;
 }
 
 
@@ -83,6 +85,17 @@
   }
 }
 
+
+@keyframes detekuru {
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    display:block;
+    z-index: -1;
+  }
+}
 
 #gaisou {
   position: relative;
