@@ -1,3 +1,13 @@
+.smallfont {
+  font-size: 3.375rem !important;
+}
+
+.middlefont {
+  font-size: 5rem !important;
+}
+
+
+
 #shutter {
   position: fixed;
   top: 0;
@@ -798,7 +808,7 @@ h6, .o-h6 {
 }
 
 .o-hsub {
-  font-size: 1.75rem;
+  font-size: 2.25rem;
   padding: 1.25rem 0;
   display: inline-block;
   text-transform: uppercase;
